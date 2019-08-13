@@ -1,0 +1,14 @@
+**/target
+**/.classpath
+**/.project
+**/.settings/
+**/bin/
+**/.DS_Store
+**/.factorypath
+**/.springBeans
+**/.prefs
+**/.settings/*
+!.gitignore
+
+/.recommenders
+/.metadata
