@@ -1,5 +1,5 @@
 server:
-  port: 9093
+  port: 9094
 
 eureka:
   instance:
@@ -18,7 +18,7 @@ spring:
         driver-class-name: com.mysql.jdbc.Driver
         password: 'mysql'
         platform: mysql
-        url: jdbc:mysql://localhost/delivery_order?verifyServerCertificate=false&useSSL=false&requireSSL=false
+        url: jdbc:mysql://localhost/delivery-order?verifyServerCertificate=false&useSSL=false&requireSSL=false
         username: root
     jpa:
         database-platform: org.hibernate.dialect.MySQLDialect
@@ -33,4 +33,4 @@ security:
   oauth2:
     resource:
       userInfoUri: ${authserver.hostname}/user
-      id: orders
+      id: payments
