@@ -15,7 +15,7 @@ eureka:
 
 zuul:
   routes:
-    customer-service:
-      serviceId: customer-service
+    delivery-order-service:
+      serviceId: delivery-order-service
   host:
     socket-timeout-millis: 30000
